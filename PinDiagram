@@ -1,0 +1,16 @@
+| Module                          | Signal      | TM4C123 Pin    | Port   |
+| ------------------------------- | ----------- | -------------- | ------ |
+| **Motor Driver (L293D)**        | IN1         | PA2            | Port A |
+|                                 | IN2         | PA3            | Port A |
+|                                 | IN3         | PA4            | Port A |
+|                                 | IN4         | PA5            | Port A |
+|                                 | EN1         | PB0 (PWM)      | Port B |
+|                                 | EN2         | PB1 (PWM)      | Port B |
+| **Bluetooth (HC-05)**           | TX          | PA1 (UART0 RX) | Port A |
+|                                 | RX          | PA0 (UART0 TX) | Port A |
+| **Ultrasonic Sensor (HC-SR04)** | TRIG        | PD0            | Port D |
+|                                 | ECHO        | PD1            | Port D |
+| **IR Sensor – Left**            | OUT         | PE1            | Port E |
+| **IR Sensor – Right**           | OUT         | PE2            | Port E |
+| **Mode Switch**                 | Manual/Auto | PF4 (SW1)      | Port F |
+| **Status LED**                  | LED         | PF1 (Red)      | Port F |
